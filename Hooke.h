@@ -1,0 +1,22 @@
+double f(double	x[3], int n);
+double best_nearby(double delta[3],double point[3], double prevbest, int nvars);
+int hooke(int nvars,double startpt[3],double endpt[3],double rho,double epsilon,int itermax);
+
+extern int number_of_pop;
+extern int total_sample_size;
+extern int number_of_loci;
+extern int **data;
+extern double **delta_vector;
+extern int *pop_size;
+extern char **pop_name;
+extern double *p;
+extern double q;
+extern double mu;
+extern int *num_of_pairs;
+extern double **table_mutations;
+extern int total_num_of_pairs;
+extern int num_of_stored_pairs;
+extern int pop;
+extern int option;
+extern int problem;
+extern FILE *flog;
